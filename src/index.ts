@@ -259,7 +259,10 @@ class SpecKitServer {
                     role: "user",
                     content: {
                         type: "text",
-                        text: `Please read the project constitution at 'commands/speckit.constitution'. [Note that if this file exists, it is generally in the current directory's .specify/memory/ directory,Scan this folder directly to obtain it] [It's important. You must read it]. If the file is missing or empty, create it with principles focused on code quality, testing standards, user experience consistency, and performance requirements. If it exists, review and use it as the foundation.`,
+                        text: `Please read the project constitution at 'commands/speckit.constitution'. 
+                        [Note that if this file exists, it is generally in the current directory's "./.specify/memory/constitution.md" File]
+                         [It's important. You must read it]. 
+                         If the file is missing or empty, create it with principles focused on code quality, testing standards, user experience consistency, and performance requirements. If it exists, review and use it as the foundation.`,
                     },
                 },
             ],
