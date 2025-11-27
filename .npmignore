@@ -1,0 +1,5 @@
+src/
+tsconfig.json
+verify.js
+verify_path.js
+.gitignore
