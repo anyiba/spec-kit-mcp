@@ -40,7 +40,7 @@ You can run this server directly using `npx`. Add the following configuration to
       "command": "npx",
       "args": [
         "-y",
-        "@anyicode/spec-kit-mcp"
+        "@anyicode/spec-kit-mcp@latest"
       ]
     }
   }
@@ -75,4 +75,8 @@ To release a new version of this package, follow these steps:
 3.  Publish the package to npm:
     ```bash
     npm publish --access public
+    ```
+4.  Verify the package is published:
+    ```bash
+    npm view @anyicode/spec-kit-mcp
     ```
